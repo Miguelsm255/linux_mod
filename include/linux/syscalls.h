@@ -368,6 +368,7 @@ asmlinkage long sys_removexattr(const char __user *path,
 asmlinkage long sys_removexattrat(int dfd, const char __user *path,
 				  unsigned int at_flags,
 				  const char __user *name);
+asmlinkage long sys_saying (void);
 asmlinkage long sys_lremovexattr(const char __user *path,
 				 const char __user *name);
 asmlinkage long sys_fremovexattr(int fd, const char __user *name);
